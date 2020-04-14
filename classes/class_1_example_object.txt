@@ -1,0 +1,25 @@
+#New Server Object
+
+day_server_1 = Server.new
+
+#Attributes:
+
+first_name = "Garrett"
+last_name = "Gerdsen"
+hourly_pay = 8.50
+tenure = 2006
+shift_status = true
+
+#Methods:
+
+day_server_1.shift_status_change(false)
+(changes shift_status to false)
+
+day_server_1.check_tenure(2020)
+=> 14 (subtracts tenure from passed value - 2020)
+
+day_server_1.combine_name(first_name, last_name)
+=> Garrett Gerdsen (combines the two variables passed)
+
+day_server_1.change_pay(9.50)
+(changes hourly_pay to 9.50)
