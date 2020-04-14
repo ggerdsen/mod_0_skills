@@ -1,0 +1,14 @@
+#Restaurant class:
+
+Server
+
+first_name (string)
+last_name (string)
+hourly_pay (float)
+tenure (int)
+shift_status (boolean)
+
+shift_status_change (changes shift_status between true or false, passes boolean value)
+check_tenure (finds number of years worked, passes this year)
+combine_name (combines first and last name, passes first_name and last_name)
+change_pay (changes hour pay rate, passes new pay)
