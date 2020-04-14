@@ -1,0 +1,11 @@
+#Program specific challenge
+
+food = "Pizza"
+is_delicious = false
+food = "Hamburgers"
+num2 = 3
+num7 = 23
+quotient = (num7 / num2)
+songs = ["American Pie", "Happy Birthday Song", "Your Song"]
+songs.delete_at(0)
+p "How many characters in the `food` variable? #{food.size.to_i}"
