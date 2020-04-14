@@ -1,0 +1,25 @@
+#New location object:
+
+location_1 = location.new
+
+#Attributes:
+
+todays_special = "Hamburger"
+employees_working = 12
+monthly_budget = 30000.00
+manager_today = "Jane Doe"
+store_open = true
+
+#Methods:
+
+location_1.change_special("Hot Dog")
+(changes todays_special to "Hot Dog")
+
+location_1.shift_change(5)
+(changes value of employees_working to 5 from 12)
+
+location_1.store_status(false)
+(changes store_open to false, showing location_1 is closed)
+
+location_1.change_manager("John Doe")
+(changes value of manager_today from "Jane Doe" to "John Doe")
