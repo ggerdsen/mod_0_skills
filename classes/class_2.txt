@@ -1,0 +1,18 @@
+#Restaurant class:
+
+Location
+
+#Attributes:
+
+todays_special (string)
+employees_working (int)
+monthly_budget (float)
+manager_today (string)
+store_open (boolean)
+
+#Methods:
+
+change_special (changes todays_special by passing new special)
+shift_change (changes value of employees_working, passes number currently working)
+store_status (changes store_open value, passes boolean value)
+change_manager (changes value of manager_today, passes string)
