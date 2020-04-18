@@ -8,12 +8,12 @@ first_name = "Garrett"
 last_name = "Gerdsen"
 hourly_pay = 8.50
 tenure = 2006
-shift_status = true
+is_on_shift = true
 
 #Methods:
 
-day_server_1.shift_status_change(false)
-(changes shift_status to false)
+day_server_1.change_shift_status(false)
+(changes is_on_shift to false)
 
 day_server_1.check_tenure(2020)
 => 14 (subtracts tenure from passed value - 2020)
